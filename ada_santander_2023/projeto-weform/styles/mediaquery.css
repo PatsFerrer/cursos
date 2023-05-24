@@ -1,0 +1,44 @@
+@media screen and (max-width: 600px) {
+    body {
+        background-color: rgb(184, 94, 94);
+        max-width: 1040px;
+    }
+}
+
+@media screen and (min-width: 600px) and (max-width: 768px) {
+    body {
+        background-color: blue;
+    }
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+    body {
+        gap: 10px;
+        width: 100vw;
+        height: 97vh;
+    }
+
+    aside#logo {
+        width: 323px;
+        gap: 17px;
+    }
+
+    main#cadastro {
+        /* background-color: rgb(119, 179, 137); */
+        width: 603px;
+        height: 435px;
+        padding: 12px;
+        display: flex;
+        align-items: center;
+        gap: 26px;
+    }
+
+    h2 {
+        font-size: 30px;
+        /* background-color: rgb(107, 175, 107); */
+        width: 479px;
+        height: 81px;
+    }
+}
