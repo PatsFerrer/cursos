@@ -6,7 +6,7 @@
     box-sizing: border-box;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700;900&display=swap');
 
 :root {
     --font1: 'Roboto', sans-serif;
@@ -14,10 +14,12 @@
     --cor0: #35E6E9;
     --cor1: #FF5678;
     --cor2: #000000;
-    --cor3: #FFFFFF;  
+    --cor3: #FFFFFF;
+    --border: 1px solid rgba(0, 0, 0, 0.15);
+    --border-radius: 12px;
 }
 
-body {
+/* body {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -27,10 +29,23 @@ body {
 
     align-items: center;
     justify-items: center;
+} */
+
+.content {
+    display: grid;
+    grid-template-areas:
+        ". . . . ."
+        ". hero . cadastro ."
+        ". hero . cadastro ."
+        ". . . . ."
+    ;
+    gap: 85px;
+    font-family: var(--font1);
 }
 
+
 aside#logo {
-    /* grid-area: logo; */
+    grid-area: hero;
 
     /* background-color: lightblue; */
 
@@ -42,11 +57,9 @@ aside#logo {
     gap: 50px;
 }
 
-h1 {
-    font-family: var(--font1);
-    font-weight: 500;
+aside h1 {
+    font-weight: 600;
     font-size: 64px;
-    line-height: 75px;
 }
 
 span {
@@ -54,59 +67,58 @@ span {
 }
 
 main#cadastro {
-    /* grid-area: cadastro; */
-    width: 603px;
+    grid-area: cadastro;
+    width: 600px;
     height: 520px;
-    border: 1px solid;
 
     /* apagar depois */
     /* background-color: rgb(233, 215, 167);  */
 
-    border: 1px solid rgba(0, 0, 0, 0.15);
-    border-radius: 12px;
+    border: var(--border);
+    border-radius: var(--border-radius);
     padding: 40px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     gap: 40px;
+    position: relative;
 }
 
-h2 {
-    /* width: 429px;
-    height: 84px; */
-    font-family: var(--font1);
+main h2 {
+    /* max-width: 430px; */
     font-size: 36px;
-    line-height: 42px;
 }
 
-main#cadastro button {
-    font-family: var(--font2);
+main#cadastro .button {
     width: 489px;
     height: 55px;
 
-    font-style: normal;
     font-weight: 500;
     font-size: 24px;
-    line-height: 36px;
 
     background: #35E6E9;
     color: #fff;
     border: 2px solid #C0EBF4;
-    border-radius: 12px;
+    border-radius: var(--border-radius);
+    text-decoration: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-main#cadastro button#botao-rosa {
+main#cadastro a.rosa {
     background: #FF5678;
 }
 
-main div {
+div.footer {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
 }
 
-div p, small {
+div a,
+small {
     font-family: var(--font2);
 }
 
@@ -116,9 +128,74 @@ div small {
     line-height: 21px;
 }
 
-div p {
+div .registrar {
     font-size: 18px;
     font-weight: bold;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
     text-decoration-line: underline;
+    color: #000000;
+}
+
+main header {
+    display: flex;
+    align-items: center;
+}
+
+main header .material-symbols-outlined {
+    font-size: 32px;
+}
+
+main form label {
+    font-size: 18px;
+    font-weight: 400;
+    text-transform: lowercase;
+    margin-bottom: 10px;
+    display: block;
+}
+
+main form :is(input, select) {
+    width: 489px;
+    height: 55px;
+    display: block;
+
+    border: var(--border);
+    border-radius: var(--border-radius);
+}
+
+main form select {
+    appearance: none;
+}
+
+main form .select-div {
+    position: relative;
+}
+
+main form .select-div::after {
+    position: absolute;
+    top: 45px;
+    right: 39px;
+
+    content: '\e5cf';
+    color: var(--cor0);
+    font-family: 'Material Symbols Outlined';
+    font-size: 24px;
+    font-weight: 600;
+
+}
+
+main form .points {
+    position: relative;
+}
+
+main form button {
+    position: absolute;
+    right: 0px;
+    top: 47px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+main form .points button .material-symbols-outlined {
+    color: var(--cor0);
 }
