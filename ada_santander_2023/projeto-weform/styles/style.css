@@ -31,6 +31,10 @@
     justify-items: center;
 } */
 
+/* body {
+    max-width: 1280px;
+} */
+
 .content {
     display: grid;
     grid-template-areas:
