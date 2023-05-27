@@ -30,3 +30,6 @@
 
 ### 10. Arrays (Parte I)
 [Aula 10](https://www.youtube.com/watch?v=481NonIVTpQ&ab_channel=Ada)
+
+### 11. Arrays (Parte II)
+[Aula 11](https://www.youtube.com/watch?v=rq_gtkTIJMs&ab_channel=Ada)
