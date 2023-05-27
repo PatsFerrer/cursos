@@ -33,3 +33,6 @@
 
 ### 11. Arrays (Parte II)
 [Aula 11](https://www.youtube.com/watch?v=rq_gtkTIJMs&ab_channel=Ada)
+
+### 12. Funções
+[Aula 12](https://www.youtube.com/watch?v=i3qrrO__Qsg&ab_channel=Ada)
