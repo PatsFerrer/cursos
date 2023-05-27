@@ -25,4 +25,7 @@
 ### 08. Estruturas de Repetição | Laços Condicionais
 [Aula 8](https://www.youtube.com/watch?v=1P4pmwbjG1g&ab_channel=Ada)
 
+### 09. Laços Numéricos
+[Aula 9](https://www.youtube.com/watch?v=9E4oYHVv1Ds&ab_channel=Ada)
+
 ### 

@@ -1,10 +1,7 @@
-if (50 > 100) {
-    console.log('falta um tanto')
-} else {
-    if ('1' == '-1') {
-        console.log('quase la')
-    }
-    if (!null) {
-        console.log('sucesso')
-    }
-}
+while (numero !== numeroSorteado) {
+    console.log('vc errou o numero. Tente novamente.')
+
+    numero = Number(input.question('Qual numero vc escolhe?'))
+} 
+
+console.log('Voce acertou')
