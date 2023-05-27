@@ -28,4 +28,5 @@
 ### 09. Laços Numéricos
 [Aula 9](https://www.youtube.com/watch?v=9E4oYHVv1Ds&ab_channel=Ada)
 
-### 
+### 10. Arrays (Parte I)
+[Aula 10](https://www.youtube.com/watch?v=481NonIVTpQ&ab_channel=Ada)
