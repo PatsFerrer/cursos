@@ -36,3 +36,6 @@
 
 ### 12. Funções
 [Aula 12](https://www.youtube.com/watch?v=i3qrrO__Qsg&ab_channel=Ada)
+
+### 13. Objetos
+[Aula 13](https://www.youtube.com/watch?v=eDUZAS3-Xy4&ab_channel=Ada)
