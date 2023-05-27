@@ -17,7 +17,7 @@ arr2.push(40) // observe que o 40 vai estar no final do array (10, 20, 30, 40)
 console.log('Depois de adicionar:', arr2)
 
 
-console.log('Antes de adicionar um unshift', arr2) //para que fique o numero adc depois, fique antes. Use o 'unshift'
+console.log('Antes de adicionar um unshift', arr2) //para que fique o numero q vc adc depois, fique antes dos outros. Use o 'unshift'
 arr2.unshift(0)
 console.log('Depois de adicionar um unshift', arr2) // agora ficará o zero na frente (0, 10, 20, 30, 40) mesmo ele sendo adicionado depois
 
