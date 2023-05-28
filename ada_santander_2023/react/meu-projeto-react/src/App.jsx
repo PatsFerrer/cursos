@@ -1,10 +1,11 @@
-import MeuContador from "./MeuContador"
+import MinhaLista from "./components/MinhaLista"
 
-export default function App() {
+export default function App () {
 
-  return (
-    <div>
-    <MeuContador />
-    </div>
-  )
+    return (
+        <div>
+            <h1>Listas no React</h1>
+            <MinhaLista />
+        </div>
+    )
 }

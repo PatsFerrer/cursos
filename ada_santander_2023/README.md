@@ -63,4 +63,7 @@
 ### 06. Listas e chaves
 [Aula 6](https://www.youtube.com/watch?v=h6E4s9ve9n0&ab_channel=Ada)
 
+### 07. Efeitos colaterais
+[AUla 7](https://www.youtube.com/watch?v=pTtyke0xs3c&ab_channel=Ada)
+
 ### 
