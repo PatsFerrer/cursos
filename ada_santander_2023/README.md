@@ -59,3 +59,8 @@
 
 ### 05. Renderização condicional
 [Aula 5](https://www.youtube.com/watch?v=O_DLeqEstyY&ab_channel=Ada)
+
+### 06. Listas e chaves
+[Aula 6](https://www.youtube.com/watch?v=h6E4s9ve9n0&ab_channel=Ada)
+
+### 
