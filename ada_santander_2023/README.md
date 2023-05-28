@@ -69,4 +69,5 @@
 ### 08. Buscando dados com fetch
 [Aula 8](https://www.youtube.com/watch?v=_s2K7lri0hM&ab_channel=Ada)
 
-###
+### 09. Estilização com classes e CSS Modules
+[Aula 9](https://www.youtube.com/watch?v=4X5hqQ1WjpE&ab_channel=Ada)
