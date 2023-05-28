@@ -66,4 +66,7 @@
 ### 07. Efeitos colaterais
 [AUla 7](https://www.youtube.com/watch?v=pTtyke0xs3c&ab_channel=Ada)
 
-### 
+### 08. Buscando dados com fetch
+[Aula 8](https://www.youtube.com/watch?v=_s2K7lri0hM&ab_channel=Ada)
+
+###
