@@ -71,3 +71,6 @@
 
 ### 09. Estilização com classes e CSS Modules
 [Aula 9](https://www.youtube.com/watch?v=4X5hqQ1WjpE&ab_channel=Ada)
+
+## 10. Publicando um site com Vercel
+[Aula 10](https://www.youtube.com/watch?v=qqhSHy739dY&ab_channel=Ada)
