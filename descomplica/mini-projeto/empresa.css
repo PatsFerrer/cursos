@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+
+main {
+    padding: 20px;
+    /* width: 90%; */
+
+    display: flex;
+    height: 80vh;
+}
+
+main .quemsomos {
+    background-color: #1773fd28;
+    width: 600px;
+    text-align: center;
+    border-radius: 0 0 10px 10px;
+}
+
+.quemsomos h1,
+p {
+    color: black;
+    text-shadow: none;
+    padding: 5px;
+}
+
+main .foto-empresa {
+    background-image: url(https://amofotolivro.com/wp-content/uploads/2019/04/fotos-da-empresa.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px 10px 0 0;
+
+    width: 600px;
+    height: 400px;
+}
