@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>React</title>
+    <!-- versão antiga -->
+    <script crossorigin src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+</head>
+
+<body>
+    <div id="app"> </div>
+
+    <!-- <h1 id="titulo" class="cabecalho">
+        <span>Olá</span>, <strong>mundo1</strong>!!!
+    </h1> -->
+
+    <script>
+        function Hello() {
+            return (
+                React.createElement('h1', { id:'titulo', className: 'cabecalho' }, 
+                React.createElement('span', {}, 'Olá '),
+                React.createElement('strong', {}, 'mundo'),
+                '!!!'
+                )
+            )
+        }
+
+
+        ReactDOM.render(
+            React.createElement(Hello, {label:'Olá, descomplica!'}),
+            document.querySelector('#app')
+        )
+
+
+    </script>
